@@ -1,13 +1,51 @@
-/* TItle Section */
+body{
+    font-family: 'Raleway';
+}
+
+/* Navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Raleway';
+}
+
+.navbar-brand{
+  font-family: 'Bebas Neue';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Title Section */
+#title .container-fluid{
+  padding:3% 15%;
+  text-align: left;
+}
+
 .title-section{
     background-color: #AACFCF;
     color: #707070;
-  }
+}
 
-  .navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand{
       color: #707070;
-  }
+}
 
-  .navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
     color: #707070;
 }
+
+.big-heading{
+  font-family: 'Raleway';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
