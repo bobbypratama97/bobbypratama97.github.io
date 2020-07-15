@@ -1,5 +1,11 @@
 body{
     font-family: 'Raleway';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway';
+  font-weight: 900;
 }
 
 /* Navbar */
@@ -19,10 +25,33 @@ body{
 .navbar-brand{
   font-family: 'Bebas Neue';
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 /* Title Section */
+.big-heading{
+  font-family: 'Raleway';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.small-heading{
+    font-weight: 500;
+}
+
+.left-title{
+  text-align: left;
+}
+
+.navbar-dark .navbar-brand{
+  color: #707070;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+color: #707070;
+}
+
 #title .container-fluid{
   padding:3% 15%;
   text-align: left;
@@ -33,19 +62,29 @@ body{
     color: #707070;
 }
 
-.navbar-dark .navbar-brand{
-      color: #707070;
+.title-image{
+  width: 75%;
+  right: 30%;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-    color: #707070;
+.right-title{
+  text-align: right;
 }
 
-.big-heading{
-  font-family: 'Raleway';
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.5;
+@media (max-width:1028px){
+    .right-title{
+      text-align: center;
+    }
+    .left-title{
+      text-align: center;
+    }
+    .small-heading{
+      font-size: 1rem;
+    }
+    #title{
+      text-align: center;
+    }
 }
+
 
 
