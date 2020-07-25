@@ -68,21 +68,6 @@ color: #707070;
   text-align: right;
 }
 
-@media (max-width:1028px){
-    .right-title{
-      text-align: center;
-    }
-    .left-title{
-      text-align: center;
-    }
-    .small-heading{
-      font-size: 1rem;
-    }
-    #title{
-      text-align: center;
-    }
-}
-
 /*Education Section */
 #education .container-fluid{
   padding:3% 15%; 
@@ -101,4 +86,43 @@ color: #707070;
 
 .education-icon{
   margin-right: 1%;
+}
+
+
+/*Skill Section*/
+#skill .container-fluid{
+  background-color: #A6DCEF;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.skill-item{
+  padding-top: 2%;
+  font-weight: 500;
+}
+
+.skill-icon{
+  margin-right: 1%;
+}
+
+
+
+
+@media (max-width:1028px){
+  .right-title{
+    text-align: center;
+  }
+  .left-title{
+    text-align: center;
+  }
+  .small-heading{
+    font-size: 1rem;
+  }
+  .education-item{
+    font-size: 1rem;
+  }
+  #title{
+    text-align: center;
+  }
 }
